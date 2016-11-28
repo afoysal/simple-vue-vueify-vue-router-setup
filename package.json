@@ -2,16 +2,16 @@
   "name": "simple-vue-vueify-vue-router-setup",
   "version": "1.0.0",
   "description": "sample project to see a project setup with vue modules and an spa approach",
-  "main": "index.js",
+  "main": "build.js",
   "scripts": {
-    "dev":"budo main.js:index.js --live --open -- -p browserify-hmr",
-    "build":"browserify main.js -o index.js"
+    "dev":"budo main.js:build.js --live --open -- -p browserify-hmr",
+    "build":"browserify main.js -o build.js"
   },
   "keywords": [
     "vue",
     "vue-router",
-    "vue-loader",
     "browserify",
+    "vueify",
     "budo"
   ],
   "author": "Leonardo Silveira <sombriks@gmail.com>",
