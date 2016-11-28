@@ -1,0 +1,18 @@
+{
+  "name": "simple-vue-vueify-vue-router-setup",
+  "version": "1.0.0",
+  "description": "sample project to see a project setup with vue modules and an spa approach",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "vue-router",
+    "vue-loader",
+    "browserify",
+    "budo"
+  ],
+  "author": "Leonardo Silveira <sombriks@gmail.com>",
+  "license": "BSD-2-Clause"
+}
