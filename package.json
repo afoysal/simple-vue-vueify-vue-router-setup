@@ -4,7 +4,8 @@
   "description": "sample project to see a project setup with vue modules and an spa approach",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"budo main.js:index.js --live --open -- -p browserify-hmr",
+    "build":"browserify main.js -o index.js"
   },
   "keywords": [
     "vue",
@@ -24,5 +25,10 @@
     "browserify-hmr": "^0.3.5",
     "budo": "^9.2.2",
     "vueify": "^9.3.0"
+  },
+  "browserify":{
+    "transform":[
+      "vueify"
+    ]
   }
 }
